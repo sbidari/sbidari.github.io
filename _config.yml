@@ -16,8 +16,8 @@ author: Subekshya Bidari
 baseurl: /
 title: Subekshya Bidari's CV
 name: Subekshya Bidari
-email: subekshya.bidari<br /> @gmail.com
-email_full: mailto:subekshya.bidari@gmail
+email: subekshya.bidari@colorado.edu
+email_full: mailto:subekshya.bidari@colorado.edu
 website: sbidari.github.io
 website_full: https://sbidari.github.io
 github: sbidari
@@ -29,7 +29,7 @@ address:
   street:
   postcode:
   city: Boulder
-  state: Colorado
+  state: CO
   country: US
 google_analytics:
 
