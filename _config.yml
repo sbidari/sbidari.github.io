@@ -31,7 +31,7 @@ address:
   city: Boulder
   state: CO
   country: US
-google_analytics:
+google_analytics: UA-172602115-1
 
 # needed for travis-ci build
 exclude: [vendor]
