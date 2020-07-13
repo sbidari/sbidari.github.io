@@ -28,7 +28,7 @@ google_maps:
 address:
   street:
   postcode:
-  city: Edinburgh
+  city: Boulder
   state: Colorado
   country: US
 google_analytics:
