@@ -27,14 +27,9 @@
     <header class="three columns">
         <img src="{{ site.baseurl }}static/img/profile.png" class="me">
         <h1>{{ site.name }}</h1>
-        <p>
-            <a href="{{ site.tel_full }}">{{ site.tel }}</a>
-        </p>
         <address>
             <a href="{{ site.google_maps }}">
-                {{ site.address.street }}<br/>
-                {{ site.address.postcode }}<br/>
-                {{ site.address.city }}<br/>
+                {{ site.address.city }}, {{ site.address.state }}<br/>
                 {{ site.address.country }}
             </a>
         </address>
