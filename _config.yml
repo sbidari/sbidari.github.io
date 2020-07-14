@@ -1,37 +1,71 @@
-highlighter: rouge
-markdown: kramdown
-rdiscount:
-  extensions: [smart]
-permalink: :title.html
-paginate: 5
-plugins: [jekyll-paginate]
-port: 4000
-safe: true
-url: http://sbidari.github.io
-author: Subekshya Bidari
+#
+###################################
+# Site wide configuration
+####################################
+#
+title: Leonids
+email:
+description: A simple and awesome blog theme powered by jekyll.
+url: # the base hostname & protocol for your site
+keywords: ["blog", "jekyll"]
 
-# edit this section with your information
-# jekyller.github.io - all contents run on /vitae/
-# for a normal use at the base of the server change it to "/"
-baseurl: /
-title: Subekshya Bidari's CV
-name: Subekshya Bidari
-email: subekshya.bidari@colorado.edu
-email_full: mailto:subekshya.bidari@colorado.edu
-website: sbidari.github.io
-website_full: https://sbidari.github.io
-github: sbidari
-twitter: BidariSubekshya
-tel:
-tel_full:
-google_maps:
-address:
-  street:
-  postcode:
-  city: Boulder
-  state: CO
-  country: US
-google_analytics: UA-172602115-1
+#
+###################################
+# Jekyll configuration
+####################################
+#
+timezone:          Europe/Paris
+markdown:          kramdown
+highlighter:       rouge
+excerpt_separator: <!--more-->
+permalink:         /articles/:year-:month/:title
 
-# needed for travis-ci build
-exclude: [vendor]
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+#
+###################################
+# Site Owner configuration
+####################################
+#
+owner:
+  name: Subekshya Bidari
+  avatar: profile.jpeg
+  job: 
+  bio: "Doctoral Candidate in Applied Mathematics <br />University of Colorado Boulder"
+  email:
+  disqus-shortname:
+  facebook: #username
+  google:
+    plus: #username
+    analytics:
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: sbidari
+  gitlab: #username
+  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  linkedin: subekshya-bidari
+  twitter: BidariSubekshya
+  skype: #username
+  xing: #username
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+  500px: #username
+  codepen: #username
+  reddit: #username
+  telegram: #username
