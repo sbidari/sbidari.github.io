@@ -3,11 +3,11 @@
 
 <div class="section">
   <div class="items" id="items">
-    {% for ed in site.data.index.teaching %}
+    {% for teach in site.data.index.teaching %}
         <div class="subsection">
-            <strong>{{ ed.degree }}</strong><br />
-            {{ ed.name }}
-            | <em> {{ ed.date }}</em>
+            <strong>{{ teach.name }}</strong><br />
+            {{ teach.institution }} | 
+            <em> {{ teach.date }}</em>
             <br /><br />
         </div>
     {% endfor %}

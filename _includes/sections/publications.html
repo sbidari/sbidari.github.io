@@ -1,9 +1,15 @@
+<div class="navy-line"></div>
 <h1><span data-i18n="skills.my_skills">Publications</span></h1>
 
-<div class="archive">
-  <div class="timeline" id="timeline">
-    {% for publication in site.data.index.publications %}
-          <div class="archive-year"><strong>{{ publication.date }}</strong> {{ publication.job }} @ <a href="{{ career.link }}">{{ publication.name }}</a></div>
+<div class="section">
+  <div class="items" id="items">
+    {% for pub in site.data.index.publications %}
+        <div class="subsection">
+            <a href="{{ pub.url }}"><strong>{{ pub.title }}</strong></a><br />
+            {{ pub.authors }}<br />
+            <em> {{ pub.journal }}</em>
+            <br /><br />
+        </div>
     {% endfor %}
   </div>
 </div>

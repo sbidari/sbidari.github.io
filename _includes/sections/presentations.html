@@ -1,9 +1,15 @@
+<div class="navy-line"></div>
 <h1><span data-i18n="skills.my_skills">Presentations</span></h1>
 
-<div class="archive">
-  <div class="timeline" id="timeline">
-    {% for career in site.data.index.presentations %}
-          <div class="archive-title"><div class="archive-year"><strong>{{ career.date }}</strong> {{ career.job }} @ <a href="{{ career.link }}">{{ career.name }}</a></div></div>
+<div class="section">
+  <div class="items" id="items">
+    {% for pre in site.data.index.presentations %}
+        <div class="subsection">
+            <strong>{{ pre.title }}</strong><br />
+            {{ pre.name }}<br />
+            <em> {{ pre.date }}</em>
+            <br /><br />
+        </div>
     {% endfor %}
   </div>
 </div>
