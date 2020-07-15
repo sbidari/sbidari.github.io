@@ -1,8 +1,11 @@
-- name: Massachusets Instutite of Technology
-  link: http://web.mit.edu/
-  date: 2011 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
-  descr: <br> (expected graduation in 2019)
+- name: University of Colorado Boulder
+  degree: Ph.D in Applied Mathematics
+  date: 2017 - Present
+  
+- name: University of Colorado Boulder
+  degree: M.S. in Applied Mathematics
+  date: May 2020
 
-- name: Harvard
-  link: http://www.harvard.edu/
-  date: 2007 - 2011
+- name: Trinity College CT
+  degree: B.A. in Mathematics
+  date: 20013 - 2017
