@@ -1,13 +1,14 @@
 <div class="navy-line"></div>
 <h1><span data-i18n="skills.my_skills">Education</span></h1>
 
-<div class="archive">
-  <div class="timeline" id="timeline">
+<div class="section">
+  <div class="items" id="items">
     {% for ed in site.data.index.education %}
-        <div class="archive-year">
-          {{ ed.name }}
-          <strong>{{ ed.degree }}</strong>
-          <em> {{ ed.date }}
+        <div class="subsection">
+            <strong>{{ ed.degree }}</strong><br />
+            {{ ed.name }}
+            | <em> {{ ed.date }}</em>
+            <br /><br />
         </div>
     {% endfor %}
   </div>
