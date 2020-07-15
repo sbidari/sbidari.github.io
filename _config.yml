@@ -3,18 +3,18 @@
 # Site wide configuration
 ####################################
 #
-title: Leonids
+title: Subekshya Bidari | Doctoral Candidate in Applied Mathematics
 email:
-description: A simple and awesome blog theme powered by jekyll.
+description:
 url: # the base hostname & protocol for your site
-keywords: ["blog", "jekyll"]
+keywords: ["subekshya", "bidari", "sbidari", "Applied Mathematics"]
 
 #
 ###################################
 # Jekyll configuration
 ####################################
 #
-timezone:          Europe/Paris
+timezone:          US/Denver
 markdown:          kramdown
 highlighter:       rouge
 excerpt_separator: <!--more-->
@@ -35,7 +35,7 @@ kramdown:
 owner:
   name: Subekshya Bidari
   avatar: profile.jpeg
-  job: 
+  job:
   bio: "Doctoral Candidate in Applied Mathematics <br />University of Colorado Boulder"
   email:
   disqus-shortname:
