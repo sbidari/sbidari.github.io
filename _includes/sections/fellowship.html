@@ -1,16 +1,13 @@
-
 <div class="navy-line"></div>
-<h1><span data-i18n="skills.my_skills">Fellowships and Awards</span></h1>
+<h2><span data-i18n="skills.my_skills">Fellowships and Awards</span></h2>
 
-<div class="section">
-  <div class="items" id="items">
-    {% for ed in site.data.index.fellowship %}
-        <div class="subsection">
-            <strong>{{ ed.degree }}</strong><br />
-            {{ ed.name }}
-            | <em> {{ ed.date }}</em>
-            <br /><br />
-        </div>
-    {% endfor %}
-  </div>
+<div class="items" id="items">
+  {% for ed in site.data.index.fellowship %}
+      <div class="subsection">
+          <strong>{{ ed.degree }}</strong><br />
+          {{ ed.name }}
+          | <em> {{ ed.date }}</em>
+          <br /><br />
+      </div>
+  {% endfor %}
 </div>

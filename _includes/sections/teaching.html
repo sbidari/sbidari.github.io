@@ -1,15 +1,13 @@
 <div class="navy-line"></div>
-<h1><span data-i18n="skills.my_skills">Teaching Experience</span></h1>
+<h2><span data-i18n="skills.my_skills">Teaching Experience</span></h2>
 
-<div class="section">
-  <div class="items" id="items">
-    {% for teach in site.data.index.teaching %}
-        <div class="subsection">
-            <strong>{{ teach.name }}</strong><br />
-            {{ teach.institution }} | 
-            <em> {{ teach.date }}</em>
-            <br /><br />
-        </div>
-    {% endfor %}
-  </div>
+<div class="items" id="items">
+  {% for teach in site.data.index.teaching %}
+      <div class="subsection">
+          <strong>{{ teach.name }}</strong><br />
+          {{ teach.institution }} |
+          <em> {{ teach.date }}</em>
+          <br /><br />
+      </div>
+  {% endfor %}
 </div>

@@ -1,15 +1,13 @@
 <div class="navy-line"></div>
-<h1><span data-i18n="skills.my_skills">Presentations</span></h1>
+<h2><span data-i18n="skills.my_skills">Presentations</span></h2>
 
-<div class="section">
-  <div class="items" id="items">
-    {% for pre in site.data.index.presentations %}
-        <div class="subsection">
-            <strong>{{ pre.title }}</strong><br />
-            {{ pre.name }}<br />
-            <em> {{ pre.date }}</em>
-            <br /><br />
-        </div>
-    {% endfor %}
-  </div>
+<div class="items" id="items">
+  {% for pre in site.data.index.presentations %}
+      <div class="subsection">
+          <strong>{{ pre.title }}</strong><br />
+          {{ pre.name }}<br />
+          <em> {{ pre.date }}</em>
+          <br /><br />
+      </div>
+  {% endfor %}
 </div>
