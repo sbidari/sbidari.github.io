@@ -1,2 +1,2 @@
 # sbidari.github.io
-Subekshya Bidari's CV
+Subekshya Bidari's webpage
