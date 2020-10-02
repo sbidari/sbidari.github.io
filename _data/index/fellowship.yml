@@ -1,5 +1,9 @@
+- name: German Academic Exchange Service (DAAD) Short Term Research Grant
+  amount: € 6,525
+  date: 2020-2021
+  
 - name: AAUW International Doctoral Fellowship
-  amount: $ 20,00
+  amount: $ 20,000
   date: 2019-2020
   
 - name: Trinity College W.H. Russell Fellowship for Graduate Studies
