@@ -6,7 +6,7 @@
       <div class="subsection">
           <a href="{{ pub.url }}"><strong>{{ pub.title }}</strong></a><br />
           {{ pub.authors }}<br />
-          <em> {{ pub.journal }}</em>
+          {% if pub.journal } <em> {{ pub.journal }}</em> {% endif }
           <br /><br />
       </div>
   {% endfor %}
