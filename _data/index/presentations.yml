@@ -1,8 +1,8 @@
 # presentations section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - title: Hive geometry shapes social information transfer in honeybee colonies
-  name: SIAM Virtual Conference on Life Sciences
-  date: June 2020
+  name: SIAM Virtual Conference on Life Sciences & SIAM Front Range Applied Mathematics Student Conference FRAMSC
+  date: June 2020 & March 2021
 
 - title: Social inhibition maintains adaptivity and consensus of honey bees foraging in dynamic environments
   name: SIAM Applications of Dynamical Systems, Snowbird & SIAM Northern States Annual Meeting, Wyoming
