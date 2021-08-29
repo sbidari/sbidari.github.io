@@ -1,5 +1,9 @@
 # presentations section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
+- title: Evidence accumulation models of collective foraging
+  name: Society of Mathematical Biology Annual Meeting (virtual conference)
+  date: June 2021 
+  
 - title: Hive geometry shapes social information transfer in honeybee colonies
   name: SIAM Virtual Conference on Life Sciences & SIAM Front Range Applied Mathematics Student Conference FRAMSC
   date: June 2020 & March 2021
