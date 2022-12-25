@@ -3,7 +3,7 @@
 # Site wide configuration
 ####################################
 #
-title: Subekshya Bidari | PhD student in Applied Mathematics
+title: Subekshya Bidari
 email: subekshya.bidari@gmail.com
 description: Subekshya's Personal Website
 url: http://sbidari.com
@@ -36,7 +36,7 @@ owner:
   name: Subekshya Bidari
   avatar: profile.jpeg
   job:
-  bio: "PhD student in Applied Mathematics <br />University of Colorado Boulder"
+  bio: "PhD Applied Mathematics"
   email:
   disqus-shortname:
   facebook: #username
